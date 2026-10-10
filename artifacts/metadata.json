@@ -1,0 +1,35 @@
+{
+    "optimal_threshold": 0.21999999999999995,
+    "feature_columns": [
+        "up_orders_count",
+        "up_first_order_num",
+        "up_last_order_num",
+        "up_avg_add_to_cart_pos",
+        "up_order_rate",
+        "up_orders_since_last",
+        "up_post_discovery_reorder_rate",
+        "current_order_dow",
+        "current_order_hour",
+        "current_days_since_prior",
+        "user_total_orders",
+        "user_avg_days_between_orders",
+        "user_total_products",
+        "user_total_reorders",
+        "user_reorder_ratio",
+        "user_avg_basket_size",
+        "prod_total_purchases",
+        "prod_total_reorders",
+        "prod_avg_add_to_cart_pos",
+        "prod_reorder_rate",
+        "aisle_id",
+        "department_id"
+    ],
+    "categorical_features": [
+        "aisle_id",
+        "department_id",
+        "current_order_dow",
+        "current_order_hour"
+    ],
+    "model_version": "v1.0.0",
+    "validation_f1_score": 0.442461972225062
+}
