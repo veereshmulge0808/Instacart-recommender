@@ -31,13 +31,4 @@ flowchart LR
 * **Low-Latency Serving:** Decoupled offline feature engineering from online inference using Snappy-compressed columnar Parquet stores and an asynchronous FastAPI backend (**<25ms inference latency**).
 * **Production CI/CD & Containerization:** Packaged in a slim Debian Docker container with OpenMP multi-threading, automated `pytest` verification via GitHub Actions, and live hosting on Render.
 
----
 
-## Quickstart
-
-### Run with Docker
-```bash
-docker build -t Instacart-recommender:v1 .
-docker run -p 8000:8000 Instacart-recommender:v1
-```
-Open `http://localhost:8000` for the interactive dashboard or `http://localhost:8000/docs` for OpenAPI Swagger documentation.
